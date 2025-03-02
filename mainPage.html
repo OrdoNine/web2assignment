@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" href="hadder.css">
+        <title>Al-Hadder Pen Store</title>
+        <link rel="icon" type="image/x-icon" href="icon.ico">
+    </head>
+
+    <body>
+        <div id = "banner">
+            <h1>Welcome to Al-Hadder Pen Store</h1>
+            <h2> Log in to get started. </h2>
+           
+        </div>
+
+       
+            <form action="login.php" method="post">
+                <div id="login" style="display:flex; flex-direction:column;" class="sign">
+                    <div style="height:33%; display:flex; flex-direction: row; align-items: center;">
+                        <label for="userTxt">Username or Email:</label>
+                        <input class="carved textlikes" type="text" id="userTxt" name="user" required>
+                    </div>
+                    <div style="height:33%; display:flex; flex-direction: row; align-items: center;">
+                        <label for="passTxt" style="vertical-align: middle;">Password: </label>
+                        <input class="carved textlikes" type="password" id="passTxt" name="pass" required>
+                    </div>
+                    <br>
+                    <div style="height: 25%; width: 75%; display: block; align-items: center; justify-content: center;">
+                        <input type="submit" value="LOG IN">
+                        <a href="signupPage.html" target="_self"> New user? Sign up instead.</a>
+                    </div>
+                </div>
+            </form>
+    </body>
+</html>

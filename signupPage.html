@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" href="hadder.css">
+        <title>Sign up</title>
+        <link rel="icon" type="image/x-icon" href="icon.ico">
+    </head>
+
+    <body>
+        <div id = "banner">
+            <h1>Create new Account</h1>
+        </div>
+
+       
+            <form action="register.php" method="post">
+                <div id="signup" class="sign" style="display:flex; flex-direction: column;  margin-left: 20%;margin-top: 10%;
+                padding: 10px;
+                width:60%; 
+                height:512px; ">
+                    <div style= "display: flex; height: 14%;flex-direction: row; align-items: center;">
+                        <label for="userTxt">Username:</label>
+                        <input class="carved textlikes" type="text" id="userTxt" name="user" required>
+                    </div>
+                    <div style="display: flex; height: 14%;flex-direction: row; align-items: center;">
+                        <label for="passTxt" style="vertical-align: middle;">Password: </label>
+                        <input class="carved textlikes" type="password" id="passTxt" name="pass" required>
+                    </div>
+                    <br>
+                    <div style="display: flex; height: 14%;flex-direction: row; align-items: center;">
+                        <label for="ageTxt" style="vertical-align: middle;">Age: </label>
+                        <input class="carved textlikes" type="number" min="13" max="100" step="1" id="ageTxt" name="ageVal" value="18" required>
+                    </div>
+                    <br>
+                    <div style="display: flex; height: 7%;flex-direction: row; align-items: center;">
+                        <input type="radio" id="GenderRD_M" name="gender" value="M" checked>
+                        <label for="GenderRD_M" style="vertical-align: middle;">Male</label>
+                    </div>
+                    <br>
+                    <div style="display: flex; height: 7%;flex-direction: row; justify-content: center; align-items: center;">
+                        <input type="radio" id="GenderRD_F" name="gender" value="F">
+                        <label for="GenderRD_F" style="vertical-align: middle;">Female</label>
+                    </div>
+                    <br>
+                    <div style=" display: flex; height: 14%;flex-direction: row; justify-content: center; align-items: center;">
+                        <label for="emailTxt">Email Address:</label>
+                        <input class="carved textlikes" type="email" id="emailTxt" name="email" required>
+                    </div>
+                    <br>
+
+                    <div style="width: 50%; height: 50%; display: flex; align-items: center; justify-content: center;">
+                        <input type="submit" value="SIGN UP">
+                    </div>
+                </div>
+            </form>
+    </body>
+</html>

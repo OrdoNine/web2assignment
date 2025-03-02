@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" href="hadder.css">
+        <title>Al-Hadder Pen Store</title>
+        <link rel="icon" type="image/x-icon" href="icon.ico">
+    </head>
+
+    <body>
+        <div id = "banner">
+
+        </div>
+
+            <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                <img src="imgs/Cross_Pens_Top_10_Pen_Brands.webp", alt="Cross_Pens_Top_10_Pen_Brands" width="256px" height="256px">
+                <h2>$Item name</h2>
+            </div>
+
+            <form action="login.php" method="post">
+                <div id="login" style="height: 60%;display:inline-flex; flex-direction:column; align-items: center; justify-content: center;" class="sign">
+                    <div style="height:33%; display:flex; flex-direction: row; align-items: center;">
+                        <label for="userTxt">Order Amount:</label>
+                        <input class="carved textlikes" type="number" min="1" id="userTxt" name="user" value="1" required>
+                    </div>
+
+                    <hr>
+
+                    <div style="height:33%; display:flex; flex-direction: row; align-items: center;">
+                        <label for="SelectCol" style="vertical-align: middle;">Point: </label>
+                        <select class="carved" name="color" id="SelectCol">
+                            <option value="black" selected>Black</option>
+                            <option value="red">Red</option>
+                            <option value="blue">Blue</option>
+                            <option value="green">Green</option>
+                        </select>
+                    </div>
+                    <div style="height:33%; display:flex; flex-direction: row; align-items: center;">
+                        <label for="SelectPt" style="vertical-align: middle;">Point: </label>
+                        <select class="carved" name="penpoint" id="SelectPt">
+                            <option value="ballpoint" selected>Ballpoint</option>
+                            <option value="tripoint">Tripoint</option>
+                        </select>
+                    </div>
+
+                    <hr>
+
+                    <div style="height:33%; display:flex; flex-direction: row; align-items: center;">
+                        <label for="SelectPt" style="vertical-align: middle;">Size: </label>
+                        <select class="carved" name="penpoint" id="SelectPt">
+                            <option value="small-1">Small (1 JOD)</option>
+                            <option value="medium-1.5" selected>Medium (1.5 JOD)</option>
+                            <option value="big-2">Big (2 JOD)</option>
+                        </select>
+                    </div>
+                    
+                    <hr>
+
+                    <div style="height:33%; display:flex; flex-direction: row; align-items: center;">
+                        <label for="SelectLang" style="vertical-align: middle;">Language Format: </label>
+                        <select class="carved" name="language" id="SelectLang">
+                            <option value="arabic" selected>Arabic</option>
+                            <option value="english">English</option>
+                        </select>
+                    </div>                    
+
+                    <div style="height:33%; display:flex; flex-direction: row; align-items: center;">
+                        <label for="SelectPages" style="vertical-align: middle;">Pages: </label>
+                        <select class="carved" name="pages" id="SelectPages">
+                            <option value="40-0.4" selected>40 (0.40 JOD)</option>
+                            <option value="60-0.6">60 (0.60 JOD)</option>
+                            <option value="80-0.8">80 (0.80 JOD)</option>
+                            <option value="100-1">100 (1 JOD)</option>
+                        </select>
+                    </div>              
+
+                    <!--Colors again-->
+
+                    <hr>
+
+                    <br>
+                    <div style="height: 25%; width: 75%; display: block; align-items: center; justify-content: center;">
+                        <input type="submit" value="ORDER">
+                    </div>
+                </div>
+            </form>
+    </body>
+</html>

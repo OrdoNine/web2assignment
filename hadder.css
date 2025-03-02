@@ -1,0 +1,107 @@
+.sign{
+    margin-left: 20%;
+    margin-top: 10%;
+    padding: 10px;
+    width:60%; 
+    height:256px; 
+    background-color: brown;
+    outline-color: rgb(13, 8, 8);
+    outline-width: 10px;
+    outline-style:solid; 
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.firstrep{
+    background-color: rgb(13, 8, 8);
+    padding: 20px;
+}
+
+.secondrep{
+    background-color: darkslategrey;
+    padding: 20px;
+}
+
+.separator{
+    width : 32px;
+    height: 320px;
+}
+
+.carved{
+    outline-color: rgb(13, 8, 8);
+    outline-style: solid;
+    outline-width: 5%;
+    border-radius: 5%;
+}
+
+body{
+    background:url("banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    text-align: center;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+
+    text-align: center;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+a:active{
+    color: blue;
+}
+a:visited{
+    color: magenta;
+}
+label{
+
+    text-align: center;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.textlikes{
+    float: right;
+    margin-right: 0;
+    margin-left: auto;
+    left: 50%;
+    width: 512px;
+    height: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+input[type="number"]{
+    left: 50%;
+    width: 96px;
+    height: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+input[type="submit"]{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(13, 8, 8);
+    color: aliceblue;
+    outline-style: solid;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
